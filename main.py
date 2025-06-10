@@ -92,12 +92,12 @@ def simulate_power(effect_size, alpha=0.05, n_sim=1000, n_per_group=14, seed=0):
 # Seiteneinstellungen & Titel
 
 st.set_page_config(page_title="Carbon-Spike Analyse", layout="centered")
-st.title("🔬 Carbon- vs. Standard-Spikes – Statistik-Dashboard")
+st.title("🔬 Carbon- vs. Standard-Spikes – Dashboard Arianski")
 
 st.markdown(
     """
     **Schritte:**  
-    1. Lade deine Excel- oder CSV-Datei hoch.  
+    1. Arianski lade deine Excel- oder CSV-Datei hoch.  
     2. Wähle im Sidebar den **Testmodus** (Lauf / Sprung).  
     3. Dropdown → Variable wählen → Kennzahlen, Boxplot **und** vertiefte Analysen.  
     """
